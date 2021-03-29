@@ -175,6 +175,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        #Dispatcher
+        \Imtigger\LaravelJobStatus\LaravelJobStatusBusServiceProvider::class,
+
     ],
 
     /*
